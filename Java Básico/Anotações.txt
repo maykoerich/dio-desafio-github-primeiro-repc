@@ -60,3 +60,9 @@ Nas linguagens de programação usamos o compilador ou o interpretador, mas em J
 Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente. (Faz com que tenha alta performance)
 
 > O Java preza pela performance
+
+
+
+Java é utilizada em praticamente todo lugar, está no mercado a 25 anos, foi criada em 1996.
+
+Ao longo dos anos vem trazendo várias melhorias na usabilidade, na interação com leitura de arquivos e várias outras ferramentas/facilitadores.
