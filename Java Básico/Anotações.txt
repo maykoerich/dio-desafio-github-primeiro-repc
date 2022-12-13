@@ -1,12 +1,62 @@
-### Aula 1
+### Java Fundamentos (Aula 1)
 
-#### Java Fundamentos
+> **Objetivos:**
+>
+> Apresentar a história da linguagem Java;
+> Explorar os recursos de cada plataforma;
+> Configurar o ambiente para desenvolvimento;
+> Definir uma IDE e aumentar nossa produtividade.
 
-Objetivos:
--Apresentar a história da linguagem Java
--Explorar os recursos de cada plataforma
--Configurar o ambiente para desenvolvimento
--Definir uma IDE e aumentar nossa produtividade
+
 
 [Livro gratuito sobre Java](https://glysns.gitbook.io/java-basico/)
 
+:warning: *Contém toda a explicação sobre Java*
+
+
+
+### O que é o Java (Aula 2)
+
+-> Java se nós tivermos contato e uma metodologia de estudo consistente, é uma linguagem simples e fácil de entender.
+
+Hoje vemos Java em qualquer cenário, desde um micro-ondas até grandes empresas.
+
+
+
+Java é orientada a objetos, isso significa que tudo é escrito em termos de classes e objetos.
+
+Pilares da programação orientada a objeto:
+
+1. Classe e Objeto - precisa ter uma boa definição de o que é uma classe e como projetar esses objetos
+2. Encapsulamento
+3. Abstração
+4. Herança
+5. Polimorfismo
+
+é uma plataforma independente, ou seja, é um ambiente de hardware ou software no qual um programa é executado.
+
+A linguagem é portátil, ou seja, pode ser utilizado facilmente em qualquer máquina, escrevendo o código apenas uma vez. A razão por trás disso é o JVM e o bytecode. 
+
+Por outro lado é robusta, o que significa que é capaz de lidar com o encerramento inesperado de um programa, pois usa um gerenciamento de memória forte, o Java fornece uma coleta de lixo automática e há tratamento de exceção e mecanismo de verificação de tipo em Java.
+
+
+
+**Segurança**
+
+O Java tem a possibilidade de fazer verificações de segurança, como uma pré-analise de um arquivo para validar a existência de ameaça. Existem recursos de segurança de para os programadores, de criptografia e decriptografia para proteger os dados contra espionagem e adulteração.
+
+
+
+**Interpretada**
+
+Nas linguagens de programação usamos o compilador ou o interpretador, mas em Java usamos os dois. Os programas Java são compilados para gerar arquivos de bytecode e a JVM (Java Virtual Machine) interpreta o arquivo te bytecode durante a execução.
+
+>  É uma tradução
+
+
+
+**Multi-thread**
+
+Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente. (Faz com que tenha alta performance)
+
+> O Java preza pela performance
