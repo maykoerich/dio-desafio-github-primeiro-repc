@@ -1,1 +1,67 @@
 Anotações
+
+Os arquivos do Java nada mais são do que um arquivo de texto.
+
+Uma IDE é um ambiente de desenvolvimento integrado e nos fornece várias ferramentas para auxiliar no desenvolvimento, como:
+
+aceleração de escrita com auto-complete ou IntelliSense
+
+Formatação de palavras e blocos de códigos
+
+Análise de erro de sintaxe
+
+Compilação de programa
+
+Depuração (acompanhamento) de execução de programa.
+
+> Cada IDE tem recursos comuns dos ou plugins específicos para a agilidade de desenvolvimento
+
+
+
+Principais IDEs:
+
+Eclipse: utilizada mais em ambientes corporativos com interface bem interativa
+
+NetBeans: utilizada mais em ambientes acadêmicos como versão de menu e assistentes em português.
+
+IntelliJ: Oferece muitos recursos de inteligência para agilidade no nosso desenvolvimento, com o uso da IDE, ela passa a dar sugestões de soluções bem assertivas. (Nem todos os recursos estão disponíveis de forma gratuita)
+
+VS Code: queridinho das IDEs pelos desenvolvedores que já atuam com NodeJs ou plataformas de front-end. Serve para Java, JavaScript, NodeJS.
+
+
+
+Para trabalhar com Eclipse é preciso endenter:
+
+- O que são workspaces?
+
+- Definir a JSK na IDE
+
+- Criar \ abrir um projeto Java
+
+- Criar \ importar um projeto Maven  
+
+  > Traz recursos adicionais para o projeto, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java, mas hoje também é utilizada para construir e gerenciar projetos escritos em C#, Ruby, Scala e outras linguagens.
+
+- Conhecer os principais atalhos
+
+- Code Snippet
+
+- Executar \ Depurar nosso programa
+
+- Conhecer alguns atalhos
+
+
+
+Comparação de atalhos:
+
+| Comando                             | Eclipse                    | IntelliJ         |
+| ----------------------------------- | -------------------------- | ---------------- |
+| Cria o método principal main        | main, ctrl + espaço, enter | psvm             |
+| Localiza recurso \ arquivo          | ctrl + shift + R           | ctrl + shift + N |
+| Método de impressão no Console      | sysout, ctrl + espaço      | sout             |
+| Renomeando variável ou método       | alt+shift+R                | shift + F6       |
+| Localizar a utilização de um método | ctrl+shift+G               | alt + F7         |
+| Entrar na implementação do método   | ctrl+click                 | ctrl+click       |
+
+
+
