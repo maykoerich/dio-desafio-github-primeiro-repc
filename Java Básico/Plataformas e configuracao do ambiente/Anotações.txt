@@ -1,4 +1,4 @@
-Anotações
+**Introdução a IDEs**
 
 Os arquivos do Java nada mais são do que um arquivo de texto.
 
@@ -65,3 +65,18 @@ Comparação de atalhos:
 
 
 
+**Configuração do Ambiente**
+
+Para desenvolver em Java é necessário que tenhamos o JDK(é a versão para desenvolvimento) e o JRE(é a versão que você quer disponibilizar para os clientes).
+
+É importante determinar a versão do Java que precisa utilizar diante de alguns requisitos do projeto.
+
+>  Hoje através da instalação da IDE nós conseguimos fazer a instalação de todos os plugins, como por exemplo o VSCode, ele baixa e já instala o JDK e configura de forma fácil.
+
+
+
+Manual de instalação: https://glysns.gitbook.io/java-basico/fundamentos/configurando-o-ambiente-de-desenvolvimento
+
+
+
+> Pode ter mais de um JDK instalado
