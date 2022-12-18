@@ -30,3 +30,132 @@ Vamos ver no curso as regras essênciais com a construção de códigos com base
 
 Link com manual: https://glysns.gitbook.io/java-basico/
 
+
+
+> Uma classe estruturada não quer guerra com ninguém
+
+A escrita de códigos de um programa é feito através da composição de palavras pré-definidas pela linguagem com as expressões que utilizamos para determinar o nome dos nossos arquivos, classes, atríbutos e métodos.
+
+É muito comum mesclarmos expressões no idioma americano com o nosso vocabulário. Existem projetos que recomendam que toda a implementação do seu programa seja escrita na lingua inglesa.
+
+é muito comum iniciarmos o projeto criando um arquivo .java e esse arquivo preicsa estar com o nome coerente com a expressão/conteudo que vamos escrever, todo esse conteudo vai ficar dentro de uma classe (99% das classes começam com public class e o nome iterativo). Por exemplo:
+
+//public class MinhaClass {
+
+//SEU CÓDIGO AQUI
+
+//}
+
+
+
+Padrão de nome do projeto: tudo em letras minusculas, separadas por -
+
+Exemplo: projeto-java-basico
+
+
+
+
+
+Todos os arquivos(files criados no SRC)/todas as classes - devem ter todas as primeiros letras em maiusculo, sem espaços ou traços de separação.
+
+Exemplo: MinhaClasse.java
+
+
+
+Quando criamos uma nova classe, ela precisa ter um método principal, no exemplo abaixo utilizamos o main, onde terá uma caracteristica unica na sua representação de iniciação.
+
+Nós iniciamos dizendo que é uma classe publica, e void porque ela não irá retornar nada, apenas executar
+
+Então ficaria:
+
+//public class MinhaClasse {
+
+//  public static void main ()
+
+//}
+
+A linguagem já tem classes que
+
+Após o main nós colocamos os parametros que serão utilizados, sendo neste exemplo String, [ ] expressão determina um array e args para argumentos/parâmetros.
+
+//public class MinhaClasse {
+
+//  public static void main (String [] args){  
+
+ // }
+
+//}
+
+
+
+- Qualquer linguagem tem uma convenção de caracteres, de escrita e de leitura.
+
+- Todo arquivo na linguagem é .java e ele vai conter o nosso código
+- Todo arquivo .java deve iniciar com letras maiusculas, se for nome composto a segunda palavra também precisa ser em maiusculo.
+
+- A classe deve possuir o mesmo nome do arquivo. 
+
+**Exemplo:**
+
+file: MinhaClasse.java
+
+--> abrindo ele contém:
+
+//public class MinhaClasse {
+
+
+
+//	public static void main (String [] args){
+
+
+
+//    System.out.print("Olá turma, sejam bem vindos" );
+
+//  }
+
+//}
+
+
+
+- toda variável deve ser escrita com letra minuscula, porém se for palavra composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, o nome dessa prática para nomear variáveis dessa forma se chama "camelCase". Exemplo: ano e anoFrabricacao
+
+> Variável String é tipo texto
+
+> Existe uma regra adicional para variáveis, quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome br sempre representará "Brasil" e nunca mudará seu valor, logo, determinarnamos como escrita o código abaixo:
+
+String BR = "Brasil"
+
+double PI = 3.14
+
+int ESTADOS_BRASILEIRO = 27
+
+int ANO_2000 =  2000 
+
+
+
+
+
+se eu já atribui à uma variavel um valor, ele nunca vai ser alterado
+
+final - expressão 
+
+final String BR = "Brasil";
+
+-> final é utilizada para expressão de que não será alterado esse valor
+
+-> String utilizada para dizer que a variável é tipo texto
+
+-> BR precisa ser em maiusculo porque essa é a convenção para dizer que ela é "final"
+
+
+
+-> se eu recebo uma variável com int, pode ser alterado o valor. por exemplo
+
+int ano = 2021;
+
+-> eu posso fazer a alteração da seguinte forma:
+
+ano  = 2022;
+
+-> porque quando temos a variavel em letra minuscula, significa que eu posso alterá-la.
+
