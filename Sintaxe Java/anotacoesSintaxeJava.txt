@@ -1,1 +1,32 @@
-anotacoesSintaxeJava
+## Anotações sobre o curso Aprendendo a Sintaxe Java
+
+Vamos ver no curso as regras essênciais com a construção de códigos com base na linguagem Java.
+
+>Pré requisitos:
+>JDK instalado
+>IDE escolhida
+>
+>Diretório do projeto definido
+
+
+
+**Anatomia da Classe**
+
+É consolidar todo o aspecto estrutural
+
+> Estrutura inicial
+>
+> Padrões de nomenclatura
+>
+> Declarando variáveis e métodos
+>
+> Identação
+>
+> Organizando arquivos (pacotes, são subdiretórios distribuídos dentro do projeto)
+>
+> Java Beans
+
+
+
+Link com manual: https://glysns.gitbook.io/java-basico/
+
